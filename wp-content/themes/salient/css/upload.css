@@ -1,0 +1,65 @@
+#uploader-wrapper {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background-image: url(../img/upload-photo.png);
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#uploader-wrapper object, #uplaoder-wrapper embed {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+}
+
+#loader-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    height: 128px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#loader-wrapper .loader {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#list {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+#list li {
+    list-style-type: none;
+}
+
+#list li .img {
+    display: inline-block;
+    border: 1px solid gray;
+    line-height: 0px;
+}
+
+#list li .img img {
+    width: 100px;
+    height: 100px;
+}
+
+#list li .loader {
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+#list li .buttons {
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: top;
+}

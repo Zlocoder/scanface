@@ -1,0 +1,278 @@
+#facecheck-profession-category {
+    width: 400px;
+    margin: 40px 0 0 100px;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    padding-bottom: 25px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#facecheck-profession-category input[type=text] {
+    width: 400px;
+}
+
+#facecheck-profession {
+    width: 350px;
+    margin: 40px 0 0 100px;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    padding-bottom: 25px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#facecheck-profession .specification {
+    border-top: 1px solid gray;
+    margin-top: 20px;
+    padding: 10px 5px;
+}
+
+#facecheck-profession .specification .progress {
+    border: 1px solid gray;
+    margin-top: 10px;
+    height: 15px;
+    background: greenyellow;
+    width: 340px;
+}
+
+#facecheck-profession .specification .diapason {
+    height: 15px;
+    position: relative;
+    background-color: #0066cc;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#facecheck-profession .specification .scale ul {
+    margin: 0;
+    margin-left: -3px;
+}
+
+#facecheck-profession .specification .scale ul li {
+    display: block;
+    float: left;
+    width: 34px;
+}
+
+#facecheck-profession .specification .values {
+    display: none;
+    text-align: center;
+}
+
+#facecheck-profession .specification input {
+    width: 70px;
+}
+
+#facecheck-section {
+    width: 500px;
+    margin: 40px 0 0 100px;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    padding-bottom: 25px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#facecheck-section label {width: 80px; display: inline-block;}
+
+#section-name {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#section-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-bottom: -15px;
+    cursor: pointer;
+}
+
+#section-save {
+    float: right;
+    margin-right: 16px;
+    margin-top: 10px;
+}
+
+#facecheck-report {margin-top: 40px;}
+
+#facecheck-report-faceparts {
+    width: 180px;
+    float: right;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    background-color: rgb(245, 245, 245);
+}
+
+#facecheck-report-faceparts label {display: inline-block; width: 60px;}
+
+#face-img {margin: 10px 0 10px 20px;}
+#face-img img {border: 1px solid #DFDFDF;}
+
+#facecheck-report-content {
+
+}
+
+#facecheck-report-content .tab {
+    float: left;
+}
+
+#facecheck-report-content .tab input[type=radio]{
+    display: none;
+}
+
+#facecheck-report-content .tab label {
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    left: 1px;
+}
+
+#facecheck-report-content .tab .content{
+    position: absolute;
+    left: 0px;
+    display: none;
+    margin-right: 250px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    background-color: rgb(245, 245, 245);
+    min-width: 450px;
+    margin-top: 8px;
+}
+
+#facecheck-report-content input[type=radio]:checked ~ label {
+    background: #fff;
+    z-index: 2;
+}
+
+#facecheck-report-content input[type=radio]:checked ~ label ~ .content {
+    display: block;
+}
+
+#facecheck-report-content .tab:first-child {
+    padding-left: 50px;
+}
+
+#facecheck-report-content .tab:first-child .content {
+    padding: 10px 20px;
+}
+
+#facecheck-report-content .content .spec {
+    height: 25px;
+    margin: 15px 10px;
+}
+
+#facecheck-report-content .content .spec span{
+    font-size: 14px;
+}
+
+#facecheck-report-content .content .spec .name {
+    font-weight: bold;
+    display: inline-block;
+    max-width: 670px;
+}
+
+#facecheck-report-content .content .spec-line {
+    width: 150px;
+    height: 12px;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 2px 5px 0 5px;
+    background: greenyellow;
+}
+
+#facecheck-report-content .content .spec-pos {
+    width: 4px;
+    height: 18px;
+    background-color: #0066cc;
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+
+#facecheck-report-content .content .spec .left-value, #facecheck-report-content .content .spec .right-value, #facecheck-report-content .content .spec .spec-line, #facecheck-report-content .content .spec input {
+    float: right;
+}
+
+#facecheck-report-content .content .spec input {
+    width: 50px;
+    margin-left: 20px;
+}
+
+#facecheck-report-sections {
+    margin-right: 250px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    background-color: rgb(245, 245, 245);
+}
+
+#facecheck-report-section-name {
+    float: left;
+    width: 300px;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#facecheck-report-section-name div {
+    padding: 14px;
+    cursor: pointer;
+    border-top: 1px solid #DFDFDF;
+}
+#facecheck-report-section-name div:first-child {
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: none;
+}
+#facecheck-report-section-name div:last-child {
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#facecheck-report-section-name div.active {background: #FFFFFF; cursor: default; margin-right: -1px;}
+
+#facecheck-report-section {
+    margin-left: 300px;
+    padding: 10px;
+    padding-bottom: 0px;
+    background: #FFFFFF;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 1px solid #DFDFDF;
+    width: 600px;
+}
+#facecheck-report-section .wp-editor-wrap {width: 100%; display: inline-block;}

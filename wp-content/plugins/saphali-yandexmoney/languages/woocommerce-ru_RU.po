@@ -1,0 +1,879 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce theme v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-01-07 10:01+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ woocommerce
+#: functions.php:40
+msgid ""
+"SKU refers to a Stock-keeping unit, a unique identifier for each distinct "
+"product and service that can be purchased."
+msgstr ""
+"Артикул относится к складской единице учета, уникальный идентификатор для "
+"каждого отдельного продукта и услуг, которые могут быть приобретены."
+
+# @ woocommerce
+#: admin/post-types/product.php:70 admin/post-types/product.php:483
+#: admin/post-types/writepanels/writepanel-order_data.php:274
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:157
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:367
+#: admin/post-types/writepanels/writepanel-product_data.php:91
+#: admin/woocommerce-admin-reports.php:1527
+#: admin/woocommerce-admin-reports.php:1562
+msgid "SKU:"
+msgstr "Артикул:"
+
+msgid "SKU"
+msgstr "Артикул"
+
+# @ woocommerce
+#: classes/class-wc-countries.php:45
+msgid "Belarus"
+msgstr "Беларусь"
+
+msgid "Product SKU:"
+msgstr "Артикул товара:"
+
+msgid "[%s with SKU of %s]"
+msgstr "[%s с артикул из %s]"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:598
+msgid "Enable the SKU field for products"
+msgstr "Включить для указания поля с артикулом для товаров"
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:157
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:367
+msgid ""
+"Enter a SKU for this variation or leave blank to use the parent product SKU."
+msgstr ""
+"Введите артикул для этого варианта или оставьте пустым для использования "
+"артикула согласно главному товару."
+
+# @ woocommerce
+#: functions.php:40
+msgid "Weight in decimal form"
+msgstr "Вес в десятичном формате"
+
+# @ woocommerce
+#: functions.php:40
+msgid "LxWxH in decimal form"
+msgstr "ДлинаxШиринаxВысота в десятичном формате"
+
+# @ woocommerce
+#: functions.php:40
+msgid "Taxes"
+msgstr "Налоги"
+
+# @ woocommerce
+#: functions.php:40
+msgid "Enable reviews"
+msgstr "Включить отзывы"
+
+# @ woocommerce
+#: functions.php:40
+msgid "Shipping class"
+msgstr "Класс доставки"
+
+# @ woocommerce
+#: functions.php:40
+msgid ""
+"Shipping classes are used by certain shipping methods to group similar "
+"products."
+msgstr ""
+"Классы доставки используют определенные методы доставки в группе аналогичных "
+"продуктов."
+
+# @ woocommerce
+#: functions.php:40
+msgid "No shipping class"
+msgstr "Нет класса доставки"
+
+# @ woocommerce
+#: functions.php:40
+msgid "Search for a product..."
+msgstr "Поиск товара..."
+
+# @ woocommerce
+#: functions.php:40
+msgid "Shipping Classes"
+msgstr "Классы доставки"
+
+# @ woocommerce
+#: functions.php:40
+msgid "Tags"
+msgstr "Метки"
+
+# @ woocommerce
+#: widgets/widget-product_categories.php:110
+msgid "No product categories exist."
+msgstr "Нет товаров в существующих категориях."
+
+# @ woocommerce
+#: functions.php:40
+msgid "Categories"
+msgstr "Рубрики"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:535
+msgid "Default product sorting"
+msgstr "Сортировать товар по умолчанию"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:542 templates/loop/sorting.php:10
+msgid "Default sorting"
+msgstr "Сортировать по умолчанию"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:543 templates/loop/sorting.php:11
+msgid "Sort alphabetically"
+msgstr "Сортировать по наименованию"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:544 templates/loop/sorting.php:12
+msgid "Sort by most recent"
+msgstr "Сортировать по дате"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:545 templates/loop/sorting.php:13
+msgid "Sort by price"
+msgstr "Сортировать по цене"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:545 templates/loop/sorting.php:13
+msgid "Sort by price - low to high"
+msgstr "Сортировать по цене (возрастание)"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:545 templates/loop/sorting.php:13
+msgid "Sort by price - high to low"
+msgstr "Сортировать по цене (убывание)"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:545 templates/loop/sorting.php:13
+msgid "Enable guest checkout (no account required)"
+msgstr "Включить гостевой заказ (без необходимости регистрации)"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:545 templates/loop/sorting.php:13
+msgid "Force secure checkout"
+msgstr "Использовать безопасное соединение при заказе"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:545 templates/loop/sorting.php:13
+msgid "Registration"
+msgstr "Регистрация"
+
+#: templates/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr "Показан один результат"
+
+# @ woocommerce
+#: templates/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d results"
+msgstr "Показаны все товары. Всего товаров: %d"
+
+#: templates/loop/result-count.php:32
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d–%2$d of %3$d results"
+msgstr "Показаны товары с %1$d по %2$d из %3$d"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:545 templates/loop/sorting.php:13
+msgid "Allow registration on the checkout page"
+msgstr "Разрешить регистрацию на странице оформления заказа"
+
+msgid "Allow registration on the \"My Account\" page"
+msgstr "Разрешить регистрацию на странице \"Мой аккаунт\""
+
+msgid "Register using the email address for the username"
+msgstr ""
+"Регистрировать, используя адрес электронной почты в качестве имени "
+"пользователя"
+
+msgid "Allow customers to repurchase past orders"
+msgstr "Разрешить клиентам обратно купить по прошлым заказам"
+
+msgid "Access Restrictions"
+msgstr "Ограничения доступа"
+
+msgid "Must be logged in to download files"
+msgstr "Должны быть зарегистрированы (авторизированы), чтобы скачивать файлы"
+
+msgid "This setting does not apply to guest downloads."
+msgstr "Этот параметр не применяется к гостевой загрузки."
+
+msgid "Grant access to downloadable products after payment"
+msgstr "Предоставление доступа к загружаемых продуктам после оплаты"
+
+msgid ""
+"Turn this option off to only grant access when an order is \"complete\", "
+"rather than \"processing\""
+msgstr ""
+"Включите эту опцию, чтобы разрешить доступ только, когда заказ находиться в "
+"статусе \"выполнен\", а не в статусе \"обработка\""
+
+msgid "Limit the purchasable quantity of downloadable-virtual items to 1"
+msgstr "Ограничьте количество приобретаемых загружаемо-виртуальных товаров к 1"
+
+msgid "Advanced"
+msgstr "Дополнительно"
+
+msgid "Enable enhanced country select boxes "
+msgstr ""
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-product_data.php:483
+msgid "Cross-Sells"
+msgstr "Перекрестные продажи (Cross-Sells) в корзине"
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-product_data.php:464
+msgid "Up-Sells"
+msgstr "Апселл (Upsell)"
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-product_data.php:464
+msgid "Username or email"
+msgstr "Имя пользователя или e-mail"
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-order_data.php:131
+#: admin/post-types/writepanels/writepanel-order_data.php:214
+#: admin/woocommerce-admin-users.php:133 admin/woocommerce-admin-users.php:182
+#: classes/class-wc-countries.php:899 classes/class-wc-countries.php:900
+#: classes/class-wc-countries.php:975
+msgid "State/County"
+msgstr "Область, Район"
+
+# @ woocommerce
+#: classes/class-wc-countries.php:976
+msgctxt "placeholder"
+msgid "State/County"
+msgstr "Область, Район"
+
+# @ woocommerce
+# @ woocommerce
+#: templates/checkout/form-shipping.php:25
+#: templates/checkout/form-login.php:13
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+"Если вы раньше делали заказ, пожалуйста, введите Ваши данные в полях снизу. "
+"Если вы новый клиент, то, пожалуйста, заполните раздел с информацией об "
+"оплате и доставке."
+
+# @ woocommerce
+#: woocommerce.php:744
+msgctxt "Admin menu name"
+msgid "Products"
+msgstr "Товары"
+
+# @ woocommerce
+#: woocommerce.php:879
+msgctxt "Admin menu name"
+msgid "Coupons"
+msgstr "Купоны"
+
+msgid "System Status"
+msgstr "Состояние системы"
+
+msgctxt "Admin menu name"
+msgid "Orders"
+msgstr "Заказы"
+
+# @ woocommerce
+#: woocommerce.php:649
+msgctxt "Admin menu name"
+msgid "Shipping Classes"
+msgstr "Классы доставки"
+
+# @ woocommerce
+#: woocommerce.php:587
+msgctxt "Admin menu name"
+msgid "Categories"
+msgstr "Категории"
+
+# @ woocommerce
+#: woocommerce.php:618
+msgctxt "Admin menu name"
+msgid "Tags"
+msgstr "Метки"
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-product_data.php:984
+msgid "Featured Product"
+msgstr "Рекомендуемый товар"
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanels-init.php:36
+msgid "Product Short Description"
+msgstr "Краткое описание товара"
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-product_data.php:982
+msgid "Enable this option to feature this product."
+msgstr "Включите эту опцию, чтобы отметить этот товар, как рекомендуемый."
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-product_data.php:946
+msgid "Catalog/search"
+msgstr "Каталог/Поиск"
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-product_data.php:959
+msgid "Catalog visibility:"
+msgstr "Видимость:"
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-product_data.php:976
+msgid ""
+"Define the loops this product should be visible in. The product will still "
+"be accessible directly."
+msgstr ""
+"Определите циклы, в которых этот продукт должен быть видимым. Продукт также "
+"будет доступен напрямую."
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:36
+msgid "Taxes by month"
+msgstr "Налоги за месяц"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:353
+#: admin/woocommerce-admin-reports.php:620
+#: admin/woocommerce-admin-reports.php:800
+msgid "items"
+msgstr "позиций"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1149
+#, php-format
+msgid "Sales for %s:"
+msgstr "Продажи %s:"
+
+# @ woocommerce
+#: admin/woocommerce-admin-dashboard.php:394
+#: admin/woocommerce-admin-reports.php:193
+#: admin/woocommerce-admin-reports.php:482
+#: admin/woocommerce-admin-reports.php:673
+#: admin/woocommerce-admin-reports.php:850
+msgid "Number of sales"
+msgstr "Число продаж"
+
+# @ woocommerce
+#: admin/woocommerce-admin-dashboard.php:395
+#: admin/woocommerce-admin-reports.php:188
+#: admin/woocommerce-admin-reports.php:482
+#: admin/woocommerce-admin-reports.php:673
+#: admin/woocommerce-admin-reports.php:850
+msgid "Sales amount"
+msgstr "Сумма продажи"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:143
+msgid "Enable coupons"
+msgstr "Включить купоны"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:152
+msgid "Enable coupon form on cart"
+msgstr "Активировать форму купона в корзине"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:254
+msgid "Enable enhanced country select boxes"
+msgstr "Включить поиск страны из списка (умный поиск)"
+
+msgid "Store Notice"
+msgstr "Уведомления магазина"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:551
+msgid "Show subcategories"
+msgstr "Показать подкатегории"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:594
+msgid ""
+"The following options affect the fields available on the edit product page."
+msgstr ""
+"Следующие параметры влияют на полях, которые находятся на странице "
+"редактирования продукта."
+
+# @ woocommerce
+#: admin/settings/settings-init.php:663
+msgid "Product Ratings"
+msgstr "Рейтинг товара"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:664
+msgid "Enable the star rating field on the review form"
+msgstr "Активировать звездный рейтинг на форме отзывов"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:673
+msgid "Ratings are required to leave a review"
+msgstr "Чтобы оставить отзыв, покупателю потребуется указать рейтинг товара"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:692
+msgid "The following options affect how prices are displayed on the frontend."
+msgstr "Следующие параметры влияют на отображение цен на сайте."
+
+# @ woocommerce
+#: admin/settings/settings-init.php:745
+msgid "Trailing zeros"
+msgstr "Завершающие нули"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:746
+msgid ""
+"Remove zeros after the decimal point. e.g. <code>$10.00</code> becomes <code>"
+"$10</code>"
+msgstr ""
+"Удалить нули после запятой, например,  <code>10.00 руб.</code> becomes "
+"<code>10 руб.</code>"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:849
+msgid "Stock display format"
+msgstr "Формат отображения запаса"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:850
+msgid "This controls how stock is displayed on the frontend."
+msgstr "Эта опция определяет отображение запаса на сайте."
+
+# @ woocommerce
+#: admin/settings/settings-init.php:856
+msgid "Always show stock e.g. \"12 in stock\""
+msgstr "Всегда показывать запас, например, \"12 в запасе\""
+
+# @ woocommerce
+#: admin/settings/settings-init.php:857
+msgid "Only show stock when low e.g. \"Only 2 left in stock\" vs. \"In Stock\""
+msgstr ""
+"Покавать наличие, только когда оно низкое, например, \"В наличии осталось "
+"только 2\" вместо \"В наличии\""
+
+# @ woocommerce
+#: admin/settings/settings-init.php:858
+msgid "Never show stock amount"
+msgstr "Никогда не показывать количество запаса"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:980
+msgid "Display taxes even when the amount is zero"
+msgstr "Показать налоги, даже если сумма равна нулю"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:1030
+#, php-format
+msgid "Reduced Rate%sZero Rate"
+msgstr "Льготный тариф%sНулевой тариф"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:890
+msgid "Hide shipping costs until an address is entered"
+msgstr "Скрыть стоимость доставки, пока адрес не будет введен"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:898
+msgid "Shipping method display"
+msgstr "Отображение способа доставки"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:899
+msgid ""
+"This controls how multiple shipping methods are displayed on the frontend."
+msgstr ""
+"Эта опция управляет тем, как будут отображаться несколько способов доставки "
+"на сайте."
+
+# @ woocommerce
+#: admin/settings/settings-init.php:912
+msgid "Shipping Destination"
+msgstr "Назначение доставки"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:929
+msgid "Collect shipping address even when not required"
+msgstr "Сбор адреса доставки, даже если не требуется"
+
+# @ woocommerce
+#: admin/settings/settings-shipping-methods.php:17
+msgid "Drag and drop methods to control their display order."
+msgstr "Перетащите методы доставки, чтобы указать порядок их отображения."
+
+# @ woocommerce
+#: admin/settings/settings-init.php:947
+msgid ""
+"Installed payment gateways are displayed below. Drag and drop payment "
+"gateways to control their display order on the checkout."
+msgstr ""
+"Установленные платежные шлюзы показаны ниже. Перетащите платежные шлюзы, "
+"чтобы указать порядок их отображения при заказе."
+
+# @ woocommerce
+#: classes/gateways/bacs/class-wc-bacs.php:68
+msgid "Account Details"
+msgstr "Реквизиты счета"
+
+# @ woocommerce
+#: classes/gateways/bacs/class-wc-bacs.php:70
+msgid "Optionally enter your bank details below for customers to pay into."
+msgstr ""
+"При необходимости ввести банковские реквизиты ниже для оплаты клиентами."
+
+# @ woocommerce
+#: classes/gateways/cod/class-wc-cod.php:47
+msgid "Enable Cash on Delivery"
+msgstr "Позволь наложенный платеж"
+
+msgid "Pay with cash upon delivery."
+msgstr "Оплата наличными при доставке."
+
+# @ woocommerce
+#: classes/integrations/sharethis/class-wc-sharethis.php:58
+msgid "ShareThis Code"
+msgstr "Код ShareThis"
+
+# @ woocommerce
+#: classes/integrations/sharethis/class-wc-sharethis.php:59
+msgid "You can tweak the ShareThis code by editing this option."
+msgstr "Вы можете настроить код ShareThis, редактированием этой опции."
+
+# @ woocommerce
+#: templates/checkout/form-billing.php:42
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+"Заполнив нижеуказанные поля, можно создать постоянный профиль на нашем "
+"сайте. Если вы уже совершали покупки у нас и регистрировались ранее, то вы "
+"можете авторизоваться, заполнив поле логина и пароля наверху."
+
+# @ woocommerce
+#: templates/checkout/form-shipping.php:25
+msgid "Ship to billing address?"
+msgstr "Отправлять на контактные данные?"
+
+# @ woocommerce
+#: classes/class-wc-cart.php:704 classes/class-wc-cart.php:712
+#, php-format
+msgid ""
+"<a href=\"%s\" class=\"button\">%s</a> You cannot add that amount to the "
+"cart &mdash; we have %s in stock and you already have %s in your cart."
+msgstr ""
+"<a href=\"%s\" class=\"button\">%s</a> Вы не можете добавить этот товар в "
+"таком количестве в корзину &mdash; у нас в наличии: %s, и он уже есть в "
+"вашей корзине: %s."
+
+# @ woocommerce
+#: templates/myaccount/my-orders.php:51
+msgid "Click to cancel this order"
+msgstr "Удалить этот заказ"
+
+# @ woocommerceOrder #2515 which was made 9 дней ago has the status “неудавшийся”.
+#: templates/order/tracking.php:12
+#, php-format
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr "Заказ  %s, который был совершен %s, имеет статус &ldquo;%s&rdquo;"
+
+# @ woocommerce
+#: templates/order/tracking.php:12
+msgid "ago"
+msgstr "тому назад"
+
+msgid "Product"
+msgid_plural "Products"
+msgstr[0] "Товар"
+msgstr[1] "Товара"
+msgstr[2] "Товаров"
+
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> made on <mark class=\"order-date"
+"\">%s</mark>"
+msgstr ""
+"Заказ <mark class=\"order-number\">%s</mark> датой на <mark class=\"order-"
+"date\">%s</mark>"
+
+msgid "Order status: <mark class=\"order-status\">%s</mark>"
+msgstr "Статус заказа: <mark class=\"order-status\">%s</mark>"
+
+# @ woocommerce
+#: admin/woocommerce-admin-users.php:102
+msgid "Customer Billing Address"
+msgstr "Контактные данные"
+
+# @ woocommerce
+#: admin/woocommerce-admin-users.php:102
+msgid "Phone"
+msgstr "Телефон"
+
+# @ woocommerce
+#: classes/class-wc-order.php:486
+#, php-format
+msgid "&nbsp;<small>%svia %s</small>"
+msgstr "&nbsp;<small>%sчерез %s</small>"
+
+# @ woocommerce
+#: admin/woocommerce-admin-users.php:18 templates/checkout/form-billing.php:14
+#: templates/myaccount/form-edit-address.php:21
+#: templates/myaccount/my-address.php:20 templates/order/order-details.php:102
+msgid "Billing Address"
+msgstr "Контактные данные"
+
+msgid "Sorry, this product cannot be purchased."
+msgstr "К сожалению, этот продукт не может быть куплен."
+
+# @ woocommerce
+#: admin/settings/settings-init.php:217
+msgid "Enable the \"Demo Store\" notice on your site"
+msgstr "Включить уведомление \"Демонстрационный магазин\" на вашем сайте"
+
+# @ woocommerce
+#: woocommerce-template.php:170
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
+msgstr ""
+"Это демонстрационный магазин для тестирования &mdash; заказы не будут "
+"исполнены."
+
+# @ woocommerce
+#: woocommerce-template.php:170
+msgid "Store Notice Text"
+msgstr "Текст уведомления"
+
+# @ woocommerce
+#: woocommerce-template.php:170
+msgid "Sort Products"
+msgstr "Сортировать продукты"
+
+# @ woocommerce
+#: woocommerce-template.php:170
+msgid "Un-force HTTPS when leaving the checkout"
+msgstr "Не использовать HTTPS уходя со страницы заказа"
+
+# @ woocommerce
+#: admin/post-types/shop_coupon.php:22
+#: admin/post-types/writepanels/writepanel-coupon_data.php:35
+msgid "Coupon amount"
+msgstr "Значение скидки"
+
+# @ woocommerce
+#: admin/post-types/writepanels/writepanel-coupon_data.php:35
+msgid "Enter an amount e.g. 2.99"
+msgstr "Введите значение, например, 2.99"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:364
+msgid "Terms page ID"
+msgstr "Страница правил и условий"
+
+# @ woocommerce
+#: admin/settings/settings-init.php:364
+msgid "Show \"verified owner\" label for customer reviews"
+msgstr "Пометить меткой \"владелец товара\" в отзывах покупателей"
+
+# @ woocommerce
+#: templates/single-product/review.php:29
+msgid "verified owner"
+msgstr "владелец товара"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:606
+#: admin/woocommerce-admin-reports.php:941
+#: admin/woocommerce-admin-reports.php:1038
+msgid "To:"
+msgstr "До:"
+
+# @ woocommerce
+#: admin/woocommerce-admin-init.php:287
+msgid "Enter a name for the new attribute term:"
+msgstr "Введите название для нового атрибута:"
+
+# @ woocommerce
+#: admin/woocommerce-admin-init.php:571
+msgid "Order notes"
+msgstr "Заметки заказа"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:369
+msgid "Discounts used"
+msgstr "Использованые скидки"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:375
+msgid "Total shipping costs"
+msgstr "Всего за доставку"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1733
+msgid "Total taxes for year"
+msgstr "Всего налогов за год"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1744
+msgid "Total product taxes for year"
+msgstr "Всего нологов на товар за год"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1755
+msgid "Total shipping tax for year"
+msgstr "Всего налогов за доставку за год"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1771
+msgid "Total Sales"
+msgstr "Всего за распродажу"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1771
+msgid "This is the sum of the 'Order Total' field within your orders."
+msgstr "Это сумма поля 'Итого' заказов в год"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1772
+msgid "Total Shipping"
+msgstr "Всего за доставку"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1772
+msgid "This is the sum of the 'Shipping Total' field within your orders."
+msgstr "Это сумма поля 'Всего за доставку' заказов в год"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1773
+msgid "Total Product Taxes"
+msgstr "Сумма налога на товар"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1773
+msgid "This is the sum of the 'Cart Tax' field within your orders."
+msgstr "Это сумма поля 'Нагог в корзине' на странице корзины заказов за год"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1774
+msgid "Total Shipping Taxes"
+msgstr "Сумма налога на доставку"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1774
+msgid "This is the sum of the 'Shipping Tax' field within your orders."
+msgstr "Это сумма поля 'Налог на доставку' за год"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1775
+msgid "Total Taxes"
+msgstr "Всего налогов"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1775
+msgid ""
+"This is the sum of the 'Cart Tax' and 'Shipping Tax' fields within your "
+"orders."
+msgstr "Это сумма полей 'Налог в корзине' и 'Налог на доставку' за год"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1776
+msgid "Net profit"
+msgstr "Доход"
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1776
+msgid "Total sales minus shipping and tax."
+msgstr ""
+
+# @ woocommerce
+#: admin/woocommerce-admin-reports.php:1819
+msgid "Toggle tax rows"
+msgstr ""
+
+# @ woocommerce
+#: admin/woocommerce-admin-functions.php:299
+#: admin/woocommerce-admin-functions.php:300
+msgid "Mark processing"
+msgstr "Изменить статус на обработка"
+
+# @ woocommerce
+#: admin/woocommerce-admin-functions.php:302
+#: admin/woocommerce-admin-functions.php:303
+msgid "Mark completed"
+msgstr "Изменить статус на выполнен"
+
+# @ default
+msgid "Order status changed."
+msgid_plural "%s order statuses changed."
+msgstr[0] "Статус заказа изменен."
+msgstr[1] "%s cтатуса заказа  изменены."
+msgstr[2] "%s статусов заказа изменены."
+
+# @ woocommerce
+#: admin/woocommerce-admin-functions.php:334
+msgid "Order status changed by bulk edit:"
+msgstr "Статус заказа изменен в массовом редактивании:"
+
+# @ woocommerce
+#: admin/woocommerce-admin-functions.php:334
+msgid "Clear selection"
+msgstr "Отменить выбор"
+
+# @ woocommerce
+#: admin/woocommerce-admin-functions.php:334
+msgid "Linked Products"
+msgstr "Сопутствующая продукция"
+
+# @ woocommerce
+#: admin/woocommerce-admin-functions.php:334
+msgid "Save attributes"
+msgstr "Сохранить свойства"
+
+# @ woocommerce
+#: admin/woocommerce-admin-functions.php:334
+msgid "Choose a file"
+msgstr "Выберите файл"
+
+# @ woocommerce
+#: admin/post-types/writepanels/variation-admin-html.php:133
+msgid "File paths:"
+msgstr "Ссылки/Пути к файлам:"
+
+# @ woocommerce
+#: admin/post-types/writepanels/variation-admin-html.php:140
+msgid "Download Expiry:"
+msgstr "Срок действия загрузки:"
+
+# @ woocommerce
+#: admin/post-types/writepanels/variation-admin-html.php:123
+msgid "Tax class:"
+msgstr "Класс налога:"
+
+# @ woocommerce
+#: admin/post-types/writepanels/variation-admin-html.php:70
+msgid "Cancel schedule"
+msgstr "Отменить расписание"

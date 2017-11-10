@@ -1,0 +1,86 @@
+.marker {
+    position: absolute;
+    background-color: #f00;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    border-radius: 2.5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#face {
+    display: inline-block;
+    margin-right: 30px;
+    width: 500px;
+    height: 700px;
+}
+
+#face img {
+    width: 500px;
+    height: 700px;
+}
+
+#example {
+    display: inline-block;
+    z-index: 1;
+    width: 74px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 426px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+
+#example img {
+    width: 72px;
+    height: 100px;
+}
+
+#example .marker {
+    width: 3px;
+    height: 3px;
+    cursor: default;
+    z-index: 2;
+    background-color: #00f;
+}
+
+#example .marker.active {
+    background-color: #0f0;
+}
+
+#buttons {
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+}
+
+#buttons li {
+    list-style-type: none;
+}
+
+#magnifier {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border-radius: 75px;
+    border: 2px solid gray;
+    z-index: 2;
+}
+
+#magnifier img {
+    max-width: none;
+}
+
+#magnifier .marker {
+    z-index: 3;
+    left: 74px;
+    top: 74px;
+}
+
+#loader {
+    margin-top: 30px;
+}
